@@ -8,7 +8,7 @@
 <br/>
 <br/>
 
-# Node.js(Express)
+# Nest.js
 
 TypeScript로 구현된 Nest.js 어플리케이션 템플릿입니다.
 
