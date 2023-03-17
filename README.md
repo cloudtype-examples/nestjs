@@ -1,73 +1,56 @@
+<br/>
+<br/>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+<img src="https://files.cloudtype.io/logo/cloudtype-logo-horizontal-black.png" width="50%" alt="Cloudtype"/>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-  
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<br/>
+<br/>
 
-## Description
+# Node.js(Express)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+TypeScript로 구현된 Nest.js 어플리케이션 템플릿입니다.
 
-## Installation
+## 🖇️ 준비 및 확인사항
+
+### 지원 Node 버전
+- 8, 10, 12, 14, 16, 18
+- ⚠️ 로컬/테스트 환경과 클라우드타입에서 설정한 Node 버전이 상이한 경우 정상적으로 빌드되지 않을 수 있습니다.
+
+### 패키지 명세
+- 빌드 시 어플리케이션에 사용된 패키지를 설치하기 위해서는 `package.json`, `package-json.json`, `yarn.lock` 중 1개의 파일이 저장소에 반영되어 있어야합니다.
+
+## ⌨️ 명령어
+
+### Build
 
 ```bash
-$ npm install
+npm run build
 ```
 
-## Running the app
+### Start
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+npm run start:prod
 ```
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
+## 🏷️ 환경변수
 
-# e2e tests
-$ npm run test:e2e
+- `NODE_ENV`: production(default) 
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
+## 💬 문제해결
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- [클라우드타입 Docs](https://docs.cloudtype.io/)
 
-## Stay in touch
+- [클라우드타입 FAQ](https://help.cloudtype.io/guide/faq)
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- [Discord](https://discord.gg/U7HX4BA6hu)
 
-## License
 
-  Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+## 📄 License
+
+[MIT](https://github.com/nestjs/nest/blob/master/LICENSE)
+
